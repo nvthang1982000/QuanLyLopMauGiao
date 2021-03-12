@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include layout="@layout/app_bar_main"/>
+    <Button
+        android:id="@+id/btn_QLLop"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bt_corner"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text="Quản lý lớp"/>
+    <Button
+        android:id="@+id/btnQLGV"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bt_corner"
+        android:layout_marginTop="30dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text="Quản lý giáo viên"/>
+    <Button
+        android:id="@+id/btnQLHS"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bt_corner"
+        android:layout_marginTop="30dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text="Quản lý học sinh"/>
+    <Button
+        android:id="@+id/btnTT"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bt_corner"
+        android:layout_marginTop="30dp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:text="Tin tức"/>
+    <Button
+        android:id="@+id/btnTK"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/bt_corner"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Thống kê"/>
+
+
+</LinearLayout>

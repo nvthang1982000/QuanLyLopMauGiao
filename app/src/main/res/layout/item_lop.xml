@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:padding="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:padding="10dp"
+            android:background="#fff"
+            android:id="@+id/img_class"
+            android:src="@drawable/icon_class"
+            android:layout_width="100dp"
+            android:layout_height="100dp"/>
+        <TextView
+            android:id="@+id/text_MaGVCN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/img_class"
+            android:textSize="25dp"
+            android:textColor="#F44336"
+            android:text="Mã GVCN: "/>
+        <TextView
+            android:id="@+id/tv_MaGVCN"
+            android:layout_toRightOf="@id/text_MaGVCN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GV01"
+            android:textSize="25dp"
+            android:textColor="#F44336"/>
+        <TextView
+            android:id="@+id/tv_TenLop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img_class"
+            android:layout_below="@id/text_MaGVCN"
+            android:layout_marginTop="5dp"
+            android:text="Lớp chó"
+            android:textSize="23dp"
+            android:textColor="#00BCD4"/>
+        <TextView
+            android:id="@+id/tv_SiSo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img_class"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:layout_below="@id/tv_TenLop"
+            android:text="Sĩ số: 35"/>
+    </RelativeLayout>
+
+</LinearLayout>
